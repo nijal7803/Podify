@@ -145,3 +145,37 @@ html {
 .cl-internal-wkkub3 {
   color: #f97535;
 }
+
+.podcast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.podcast-card {
+  background-color: #1a1a1a; /* Black background */
+  color: #fff; /* White text */
+  border: 1px solid #333; /* Subtle border */
+  border-radius: 16px; /* Rounded corners */
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.podcast-card:hover {
+  transform: translateY(-5px); /* Hover lift */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.podcast-card img {
+  border-radius: 12px; /* Rounded image corners */
+  margin-bottom: 12px;
+}
+
+.podcast-card h3 {
+  color: #ff8800; /* Orange accent for titles */
+}
+
+.podcast-card p {
+  color: #ccc; /* Light gray for descriptions */
+}
